@@ -1,0 +1,153 @@
+.link{
+   margin-bottom: 24px
+}
+
+@media screen and (max-width: 1399px) {
+   .navigate {
+      display: none;
+   }
+   .aboutBody {
+      width: 100%;
+   }
+}
+
+
+.anim-Left {
+   animation: animLeft 1.5s 1s both;
+}
+.anim-Bottom{
+   animation: animBottom 1.5s 1s both;
+}
+.anim-Right {
+   animation: animRight 1.5s 1s both;
+}
+.anim-Top {
+   animation: animTop 1.5s 1s both;
+}
+
+.hidden {
+   opacity: 0;
+   transform: translateY(50px);
+   transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+ }
+ 
+ .visible {
+   opacity: 1;
+   transform: translateY(0);
+ }
+
+@keyframes animBottom {
+   0%{
+       transform: translateY(100px);
+       opacity: 0;
+   }
+
+   100%{
+       transform: translateY(0);
+       opacity: 1;
+   }
+}
+
+
+@keyframes animLeft {
+   0%{
+       transform: translateX(-100px);
+       opacity: 0;
+   }
+
+   100%{
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+
+@keyframes animRight {
+   0%{
+       transform: translateX(100px);
+       opacity: 0;
+   }
+
+   100%{
+       transform: translateX(0);
+       opacity: 1;
+   }
+}
+
+@keyframes animTop {
+   0%{
+       transform: translateY(-100px);
+       opacity: 0;
+   }
+
+   100%{
+       transform: translateY(0);
+       opacity: 1;
+   }
+}
+
+
+@keyframes animBottom {
+   0%{
+       transform: translateY(100px);
+       opacity: 0;
+   }
+
+   100%{
+       transform: translateY(0);
+       opacity: 1;
+   }
+}
+
+
+
+.animLeft {
+   animation: animLeft;
+   animation-duration: 3s;
+}
+
+
+.animRight {
+   animation: animRight;
+   animation-duration: 3s;
+}
+
+
+
+.animTop {
+   animation: animTop;
+   animation-duration: 3s;
+}
+
+.animBottom {
+   animation: animBottom;
+   animation-duration: 3s;
+}
+
+
+
+
+.typewriter h1 {
+  
+  margin-left: 18px;
+   font-weight: 600;
+   display: inline-block; /* Prevent the element from spanning the full width */
+   overflow: hidden; 
+   border-right: 0.15em solid black; 
+   letter-spacing: 0.05em; 
+   white-space: nowrap; /* Prevent text wrapping */
+   animation: 
+       typing 2.5s steps(20, end), /* Adjust steps to match your text length */
+       blink-caret 0.50s step-end infinite;
+
+       animation-iteration-count: typing 1, blink-caret 6;
+}
+
+@keyframes typing {
+   from { width: 0; }
+   to { width: 8ch; } /* Adjust 30ch to the exact length of your text */
+}
+
+@keyframes blink-caret {
+   from, to { border-color: black; }
+   50% { border-color: transparent; }
+}

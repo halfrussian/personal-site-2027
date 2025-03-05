@@ -1,0 +1,115 @@
+.heroIntro {
+
+    height: 4px; /* Adjust height as needed */
+    background:#d0d7de;
+    border: none; /* Remove default border */
+}
+
+.bt-color {
+
+    height: 4px; /* Adjust height as needed */
+    background: var(--Dark-gradient-purple-red, linear-gradient(92deg, #D2A8FF 12.09%, #F778BA 42.58%, #FF7B72 84.96%));
+    border: none; /* Remove default border */
+}
+
+
+
+.anim-Left {
+    animation: animLeft 1.5s 1s both;
+}
+.anim-Bottom{
+    animation: animBottom 1.5s 1s both;
+}
+.anim-Right {
+    animation: animRight 1.5s 1s both;
+}
+.anim-Top {
+    animation: animTop 1.5s 1s both;
+}
+
+@keyframes animBottom {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes animLeft {
+    0%{
+        transform: translateX(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animRight {
+    0%{
+        transform: translateX(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes animTop {
+    0%{
+        transform: translateY(-100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+@keyframes animBottom {
+    0%{
+        transform: translateY(100px);
+        opacity: 0;
+    }
+
+    100%{
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+.animLeft {
+    animation: animLeft;
+    animation-duration: 3s;
+}
+
+
+.animRight {
+    animation: animRight;
+    animation-duration: 3s;
+}
+
+
+
+.animTop {
+    animation: animTop;
+    animation-duration: 3s;
+}
+
+.animBottom {
+    animation: animBottom;
+    animation-duration: 3s;
+}
