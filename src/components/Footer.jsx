@@ -51,7 +51,7 @@ const Footer = () => {
                 href="https://github.com/halfrussian">
                   Github</Link>
               </div>
-              <div className="mx-3">
+              {/* <div className="mx-3">
               <Link 
               sx={{
                 color: 'fg.default',
@@ -59,7 +59,7 @@ const Footer = () => {
               }}
                 href="https://www.instagram.com/joshuabracken__/">
                   Instagram</Link>
-              </div>
+              </div> */}
             </div>
           </div>
          </div>

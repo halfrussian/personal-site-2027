@@ -72,7 +72,7 @@ const KingMetals = () => {
                 <Text sx={{ fontSize: "3", color: "fg.subtle" }}>Role</Text>
                 <br />
 
-                <Text sx={{ fontSize: "4" }}>Product Designer</Text>
+                <Text sx={{ fontSize: "4" }}>Web Developer & Designer</Text>
               </div>
               <div className="col-lg-3 mb-3">
                 <Text sx={{ fontSize: "3", color: "fg.subtle" }}>Timeline</Text>

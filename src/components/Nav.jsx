@@ -122,7 +122,7 @@ const Nav = (props) => {
               <div onClick={() => navigate("/about")}>About</div>
             </Header.Link>
           </Header.Item>
-          <Header.Item>
+          {/* <Header.Item>
             <Header.Link
               sx={{
                 fontWeight: "300",
@@ -138,9 +138,9 @@ const Nav = (props) => {
             >
               Resume
             </Header.Link>
-          </Header.Item>
+          </Header.Item> */}
           
-          <Header.Item>
+          {/* <Header.Item>
             <Header.Link
               sx={{
                 fontWeight: "300",
@@ -152,7 +152,7 @@ const Nav = (props) => {
             >
               Contact
             </Header.Link>
-          </Header.Item>
+          </Header.Item>  */}
 
           <Header.Item>
             <Header.Link sx={{ fontSize: 3 }}>
@@ -311,7 +311,7 @@ const Nav = (props) => {
           </ActionList.Item>
           <ActionList.Divider />
 
-          <ActionList.Item
+          {/* <ActionList.Item
             sx={{
               fontWeight: "300",
               fontSize: 3,
@@ -339,10 +339,10 @@ const Nav = (props) => {
               </div>
             </Header.Link>
           </ActionList.Item>
-          <ActionList.Divider />
+          <ActionList.Divider /> */}
           
 
-          <ActionList.Item>
+          {/* <ActionList.Item>
             <Header.Link
               sx={{
                 fontWeight: "300",
@@ -354,8 +354,8 @@ const Nav = (props) => {
             >
               Contact
             </Header.Link>
-          </ActionList.Item>
-          
+          </ActionList.Item> 
+           */}
 
           <ActionList.Item className="actionMenuListItem">
             <Switch

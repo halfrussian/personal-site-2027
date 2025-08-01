@@ -31,7 +31,7 @@ const HeroIntro = () => {
               marginBottom: 3,
             }}
           >
-            I’m a strategic Product Designer & Developer (ex GitHub)
+            I’m a strategic Design Technologist (ex GitHub)
           </Heading>
 
           <Text
@@ -41,17 +41,9 @@ const HeroIntro = () => {
             }}
             className="anim-Bottom"
           >
-            Armed with 5+ years of experience, I’ve designed & developed products that make
-            a real impact. Previously, I was a Product Designer and Developer for GitHub, and
-            now I’m shaping the future of Billing and Payments at State Farm as a Designer. I specialize in implementing System Thinking, within an Agile environment. 
-
-            <br  />
-            <br  />
-             
-             I also take on additional contracts and private clients—let’s create something amazing together. 
-             <br  />
-            <br  />
-            <Button
+           Design Technologist specializing in bridging the gap between design and engineering 
+           through code-driven UX innovation, scalable systems, and rapid prototyping.
+            {/* <Button
             sx={{
               padding: "10px 20px 10px 20px",
              width: "170px",
@@ -75,7 +67,7 @@ const HeroIntro = () => {
           >
             Contact me
             
-          </Button>
+          </Button> */}
           </Text>
           <Box
             sx={{

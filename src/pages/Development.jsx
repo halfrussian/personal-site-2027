@@ -59,12 +59,12 @@ const Dev = () => {
               color: "fg.default",
             }}
           >
-            Many designers shy away from coding, but not me. By learning how to code I can empathize with developers,
+            {/* Many designers shy away from coding, but not me. By learning how to code I can empathize with developers,
             
             and design assets, that can be delivered by our deadlines. 
             <br  />
             <br  />
-             My career, and my life, reflect this motto:<br  />
+             My career, and my life, reflect this motto:<br  /> */}
             
             "While specialization breeds expertise, true mastery is born from
             the cross-pollination of knowledge across diverse fields." -

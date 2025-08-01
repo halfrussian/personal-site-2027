@@ -81,7 +81,7 @@ const Github = () => {
                 <br />
 
                 <Text sx={{ fontSize: "4" }}>
-                  Product Designer & Frontend Developer
+                Design Technologist
                 </Text>
               </div>
               <div className="col-lg-3 mb-3">

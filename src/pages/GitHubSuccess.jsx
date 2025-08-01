@@ -86,7 +86,7 @@ const GitHubSuccess = () => {
                 <Text sx={{ fontSize: "3", color: "fg.subtle" }}>Role</Text>
                 <br />
 
-                <Text sx={{ fontSize: "4" }}>UX Designer</Text>
+                <Text sx={{ fontSize: "4" }}>Design Technologist</Text>
               </div>
               <div className="col-lg-3 mb-3">
                 <Text sx={{ fontSize: "3", color: "fg.subtle" }}>Timeline</Text>
